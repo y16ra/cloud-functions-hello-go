@@ -5,7 +5,7 @@ import (
 	"github.com/y16ra/cloud-functions-hello-go/hello"
 )
 
-const entryPoint = "HelloWorld"
+const entryPoint = "HelloHTTP"
 
 func init() {
 	functions.HTTP(entryPoint, hello.HelloHTTP)
